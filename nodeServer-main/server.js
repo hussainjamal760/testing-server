@@ -56,6 +56,8 @@ app.get("/", (req, res) => {
 
 // 7️⃣  Start the server
 // ---------------------
+// The default port is now 2030 unless overridden by the environment
+// variable `PORT`.
 const PORT = process.env.PORT ? parseInt(process.env.PORT, 10) : 2030;
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
