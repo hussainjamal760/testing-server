@@ -1,1 +1,1 @@
-# testing-serveeer
+This is a test repository for git conflicts.
